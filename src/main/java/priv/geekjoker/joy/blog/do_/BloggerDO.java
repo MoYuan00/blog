@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.po;
+package priv.geekjoker.joy.blog.do_;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class BloggerPO {
+public class BloggerDO {
     private String nickname;
     private String head_portrait;
     private String profile;

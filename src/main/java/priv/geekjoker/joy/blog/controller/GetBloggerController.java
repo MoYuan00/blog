@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import priv.geekjoker.joy.blog.po.BloggerPO;
+import priv.geekjoker.joy.blog.do_.BloggerDO;
 import priv.geekjoker.joy.blog.service.BloggerService;
 
 import java.util.List;
@@ -20,7 +20,7 @@ public class GetBloggerController {
 
     @RequestMapping("/allBlogger")
     @ResponseBody
-    public List<BloggerPO> exec(){
+    public List<BloggerDO> exec(){
         return bloggerService.getAllBlogger();
     }
 }

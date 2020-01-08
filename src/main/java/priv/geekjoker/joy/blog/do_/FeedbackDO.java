@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.po;
+package priv.geekjoker.joy.blog.do_;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,8 +12,9 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-public class AdminPO {
+public class FeedbackDO {
     private String id;
-    private String name;
-    private Date createTime;
+    private String content;
+    private Date postedTime;
+    private String  feedbackTypeId;
 }

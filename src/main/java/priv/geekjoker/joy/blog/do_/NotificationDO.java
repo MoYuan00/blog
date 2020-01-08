@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.po;
+package priv.geekjoker.joy.blog.do_;
 
 
 import lombok.Getter;
@@ -13,7 +13,7 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-public class NotificationPO {
+public class NotificationDO {
     private String id;
     private String content;
     private Date datetime;

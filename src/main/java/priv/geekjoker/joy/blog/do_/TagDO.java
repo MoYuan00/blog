@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.po;
+package priv.geekjoker.joy.blog.do_;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,10 +7,10 @@ import lombok.ToString;
 /**
  * @author -ZQ-
  */
-@Setter
 @Getter
+@Setter
 @ToString
-public class FeedbackTypePO {
+public class TagDO {
     private String id;
     private String name;
 }

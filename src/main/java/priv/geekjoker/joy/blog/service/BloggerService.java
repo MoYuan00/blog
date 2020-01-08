@@ -1,6 +1,6 @@
 package priv.geekjoker.joy.blog.service;
 
-import priv.geekjoker.joy.blog.po.BloggerPO;
+import priv.geekjoker.joy.blog.do_.BloggerDO;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import java.util.List;
 public interface BloggerService {
     /**
      * 获取所有的博主信息
-     * @return List<BloggerPO>
+     * @return List<BloggerDO>
      */
-    List<BloggerPO> getAllBlogger();
+    List<BloggerDO> getAllBlogger();
 }

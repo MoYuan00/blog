@@ -1,4 +1,5 @@
-package priv.geekjoker.joy.blog.po;
+package priv.geekjoker.joy.blog.do_;
+
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,16 +7,18 @@ import lombok.ToString;
 
 import java.util.Date;
 
+
 /**
  * @author -ZQ-
  */
 @Getter
 @Setter
 @ToString
-public class CollectionPO {
+public class BlogDO {
     private String id;
-    private String content;
-    private String sourceAddress;
     private String title;
-    private Date addTime;
+    private String text;
+    private Date postedTime;
+    private Date updatedTime;
+    private String blogTypeId;
 }

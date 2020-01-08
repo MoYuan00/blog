@@ -8,7 +8,8 @@ spring:
 # 配置mybatis
 mybatis:
   mapper-locations: classpath*:mybatis/mapper/*Mapper.xml
-  type-aliases-package: priv.geekjoker.joy.blog.mapper
+#  配置mybatis type的别名
+  type-aliases-package: priv.geekjoker.joy.blog.do_
 
 server:
   port: 8080

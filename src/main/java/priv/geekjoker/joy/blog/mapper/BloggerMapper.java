@@ -1,18 +1,18 @@
 package priv.geekjoker.joy.blog.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
-import priv.geekjoker.joy.blog.po.BloggerPO;
+import org.springframework.stereotype.Repository;
+import priv.geekjoker.joy.blog.do_.BloggerDO;
 
 import java.util.List;
 
 /**
  * @author -ZQ-
  */
-@Mapper
+@Repository
 public interface BloggerMapper {
     /**
      * 获取所有的博主信息
-     * @return List<BloggerPO>
+     * @return List<BloggerDO>
      */
-    List<BloggerPO> listBlogger();
+    List<BloggerDO> listBlogger();
 }

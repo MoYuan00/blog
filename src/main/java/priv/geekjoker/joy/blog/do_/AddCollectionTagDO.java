@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.po;
+package priv.geekjoker.joy.blog.do_;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class AddBlogTagPO {
-    private String blogId;
+public class AddCollectionTagDO {
+    private String collectionId;
     private String tagId;
 }

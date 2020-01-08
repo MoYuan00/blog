@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.po;
+package priv.geekjoker.joy.blog.do_;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,9 +12,10 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-public class FeedbackPO {
+public class CollectionDO {
     private String id;
     private String content;
-    private Date postedTime;
-    private String  feedbackTypeId;
+    private String sourceAddress;
+    private String title;
+    private Date addTime;
 }
