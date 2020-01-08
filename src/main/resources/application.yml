@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 配置mybatis
+mybatis:
+  mapper-locations: classpath*:mybatis/mapper/*Mapper.xml
+  type-aliases-package: priv.geekjoker.joy.blog.mapper
+
+server:
+  port: 8080
