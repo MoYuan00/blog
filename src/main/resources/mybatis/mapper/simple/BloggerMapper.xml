@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="priv.geekjoker.joy.blog.mapper.BloggerMapper" >
+<mapper namespace="priv.geekjoker.joy.blog.mapper.simple.BloggerMapper" >
     <select id="listBlogger" resultType="bloggerDO">
         select * from blogger
     </select>

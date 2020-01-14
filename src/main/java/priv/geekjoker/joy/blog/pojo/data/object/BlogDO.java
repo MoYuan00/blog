@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.do_;
+package priv.geekjoker.joy.blog.pojo.data.object;
 
 
 import lombok.Getter;
@@ -15,10 +15,10 @@ import java.util.Date;
 @Setter
 @ToString
 public class BlogDO {
-    private String id;
+    private Integer id;
+    private Date createTime;
+    private Date updateTime;
     private String title;
-    private String text;
-    private Date postedTime;
-    private Date updatedTime;
-    private String blogTypeId;
+    private String content;
+    private Integer blogTypeId;
 }

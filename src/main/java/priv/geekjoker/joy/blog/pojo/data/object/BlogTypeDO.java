@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.do_;
+package priv.geekjoker.joy.blog.pojo.data.object;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,11 +9,12 @@ import java.util.Date;
 /**
  * @author -ZQ-
  */
-@Getter
 @Setter
+@Getter
 @ToString
-public class AdminDO {
-    private String id;
-    private String name;
+public class BlogTypeDO {
+    private Integer id;
     private Date createTime;
+    private Date updateTime;
+    private String name;
 }

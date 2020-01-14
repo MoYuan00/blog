@@ -1,7 +1,7 @@
-package priv.geekjoker.joy.blog.mapper;
+package priv.geekjoker.joy.blog.mapper.simple;
 
 import org.springframework.stereotype.Repository;
-import priv.geekjoker.joy.blog.do_.BloggerDO;
+import priv.geekjoker.joy.blog.pojo.data.object.BloggerDO;
 
 import java.util.List;
 

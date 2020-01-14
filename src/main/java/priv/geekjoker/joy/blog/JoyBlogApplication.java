@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author -ZQ-
  */
 @SpringBootApplication
-@MapperScan("priv.geekjoker.joy.blog.mapper")
+@MapperScan(basePackages = {"priv.geekjoker.joy.blog.mapper.simple"})
 public class JoyBlogApplication {
 
     public static void main(String[] args) {

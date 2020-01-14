@@ -7,9 +7,16 @@ spring:
 
 # 配置mybatis
 mybatis:
-  mapper-locations: classpath*:mybatis/mapper/*Mapper.xml
+  mapper-locations: classpath:mybatis/mapper/simple/*Mapper.xml
 #  配置mybatis type的别名
-  type-aliases-package: priv.geekjoker.joy.blog.do_
+  type-aliases-package: priv.geekjoker.joy.blog.pojo.data.object
+#  config-location: classpath:mybatis/mybatis-config.xml
+
 
 server:
   port: 8080
+
+logging:
+    level:
+      root: debug
+

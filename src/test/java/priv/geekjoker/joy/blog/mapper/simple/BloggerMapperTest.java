@@ -1,4 +1,4 @@
-package priv.geekjoker.joy.blog.mapper;
+package priv.geekjoker.joy.blog.mapper.simple;
 
 
 import org.junit.jupiter.api.Test;

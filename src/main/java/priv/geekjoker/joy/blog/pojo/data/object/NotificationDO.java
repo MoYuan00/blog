@@ -1,4 +1,5 @@
-package priv.geekjoker.joy.blog.do_;
+package priv.geekjoker.joy.blog.pojo.data.object;
+
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,10 +13,9 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-public class CollectionDO {
-    private String id;
+public class NotificationDO {
+    private Integer id;
+    private Date createTime;
+    private Date updateTime;
     private String content;
-    private String sourceAddress;
-    private String title;
-    private Date addTime;
 }
